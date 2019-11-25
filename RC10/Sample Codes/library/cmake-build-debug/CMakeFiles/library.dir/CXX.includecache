@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/book.cpp
+book.h
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/book.h
+utility
+-
+iostream
+-
+
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/book.h
+string
+-
+customer.h
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/customer.h
+
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/customer.h
+string
+-
+utility
+-
+
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/library.cpp
+library.h
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/library.h
+utility
+-
+iostream
+-
+
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/library.h
+book.h
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/book.h
+customer.h
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/customer.h
+
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/main.cpp
+iostream
+-
+library.h
+/mnt/c/Users/kaibi/Programming/VG101FA2019/cxx/RC/RC10/Sample Codes/library/library.h
+
